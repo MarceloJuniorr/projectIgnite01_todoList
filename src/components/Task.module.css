@@ -1,0 +1,55 @@
+.Task {
+    width: 100%;
+    min-height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--gray-500);
+    border-radius: 8px;
+    margin-top: 1rem;
+    padding: 1rem;
+    
+}
+.Task svg {
+    color: var(--gray-300);
+}
+.Task svg:hover{
+    color: var(--danger);
+
+}
+
+
+.Task button {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    
+
+}
+.Task p {
+    width: 75%;
+}
+
+.checkbox {
+    display: flex;
+    position: relative;
+
+}
+.checkbox img:hover{
+    opacity: 0.8;
+}
+  
+.checkbox input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+      height: 0;
+      width: 0;
+}
+
+.NotActiveText {
+    text-decoration: line-through;
+    color: var(--gray-300);
+}
+

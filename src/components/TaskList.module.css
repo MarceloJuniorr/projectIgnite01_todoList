@@ -1,0 +1,21 @@
+.TaskList {
+    width: 80%;
+}
+.TaskList header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+
+.TaskList header p span {
+    background: var(--gray-400);
+    color: var(--gray-200);
+    padding: 0 0.5rem;
+    border-radius: 1rem;
+}
+
+.CreatedTasks{
+    color: var(--blue);
+}
+
